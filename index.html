@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Matbyte</title>
+  <link href="style.css" rel="stylesheet" />
+  <link rel="icon" href="https://matbyte.com/wp-content/uploads/2023/05/cropped-symbolOnlyBig-192x192.png" sizes="192x192">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+<body>
+    <div id="home">
+    <nav id="hidden_header" style="z-index: 100; position: fixed; background: rgb(1,44,96);"
+    class="hiddenh hidden flex w-full items-center white py-2 text-neutral-600 shadow-lg text-white">
+    <div class="flex w-full flex-wrap items-center justify-end px-3">
+      <!-- Navigation links -->
+        <a
+          class="block transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:hover:text-white dark:focus:text-white lg:p-2 [&.active]:text-black/90 mr-5"
+          href="#home"
+          >Home</a
+        >
+        <a
+          class="block transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:hover:text-white dark:focus:text-white lg:p-2 [&.active]:text-black/90 mr-5"
+          href="#aboutUs"
+          >About Us</a
+        >
+        <a
+          class="block transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:hover:text-white dark:focus:text-white lg:p-2 [&.active]:text-black/90 mr-5"
+          href="#currentProjects"
+          >Current Projects</a
+        >
+        <a
+          class="block transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:hover:text-white dark:focus:text-white lg:p-2 [&.active]:text-black/90 mr-5"
+          href="#contact"
+          >Contact</a
+      </div>
+    </div>
+  </nav>
+  <div style="height: 100vh;" class="relative">
+    <img src="https://matbyte.com/wp-content/uploads/2023/05/pexels-luis-gomes-546819-1024x680.jpg" style="height: 100%; width: 100%" class="fadeIn"/>
+    <div class="absolute ml-auto mr-auto mt-auto mb-auto p-3 rounded" style="top: 0; left: 0; right: 0; bottom: 0; width: 290px; height: 150px; background: #ffffffa0;">
+      <img decoding="async" src="https://matbyte.com/wp-content/uploads/2023/04/default-monochrome.png" alt="Matbyte Logo" loading="lazy" />
+    </div>
+    <div class="absolute ml-auto mr-auto hover:animate-bounce" style="left: 0; right: 0; bottom: 15px; width: 24px;">
+      <a href="#aboutUs">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="white" class="w-8 h-17">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3">
+      </svg>
+      </a>
+    </div>
+  </div>
+  <div id="aboutUs" class="flex flex-row mb-5">
+    <div class="hidden lg:block basis-1/3 text-center gradient" style="min-height: 350px;">
+      <h2 class="text-4xl font-medium leading-tight text-white mt-24">About Us</h2>
+    </div>
+    <div class="basis-2/3 grow text-center lg:text-justify pr-7 pl-7 text-justify text-gray-500 dark:text-gray-400 sm:text-xl font-light">
+      <h1 class="text-5xl mt-7 text-center font-medium leading-tight text-primary">Welcome to Matbyte</h1>
+      <hr class="mt-5 ml-28 mr-28 h-0.5 border-t-0 bg-neutral-800" />
+      <p class="mt-5">
+        Welcome to Matbyte – your partner for innovative technology solutions!
+      </p>
+      <p class="mt-3">
+        As an aspiring start-up, we are always looking for new ideas and technologies to offer our customers the best possible service experience.
+      </p>
+      <p class="mt-3">
+        We pride ourselves on offering a wide range of services from web application development, hosting support and more. At Matbyte, we focus on quality, efficiency and creative solutions to meet your needs and exceed your expectations.
+      </p>
+      </p>
+    </div>
+  </div>
+  <div class="flex flex-row mt-5 mb-5" id="currentProjects">
+    <div class="basis-2/3 text-center grow">
+    <h2 class="mb-2 mt-7 text-4xl font-medium leading-tight text-primary text-gray-500 dark:text-gray-400 lg:hidden">
+      Current Projects
+    </h2>
+      <div class="rounded border ml-auto mr-auto mt-5 mb-5" style="width: 50%; border-color: #5e0000">
+        <a href="https://vyhub.net">
+          <img src="https://matbyte.com/wp-content/uploads/2023/04/vyhub_logo_v2_icon_red.png"  class="ml-auto mr-auto" style="height: 200px">
+        </a>
+        <a href="https://vyhub.net" class="text-2xl font-medium leading-tight text-primary">
+          VyHub
+        </a>
+        <p class="ml-3 mr-3 mb-3 mt-3 text-gray-500 dark:text-gray-400 sm:text-xl font-light">
+          VyHub is the platform for gaming communities. VyHub offers a comprehensive management solution. The real money shop makes it possible to sell ingame products and monetize the community.​
+        </p>
+      </div>
+    </div>
+    <div class="lg:basis-1/3 gradient text-center rounded hidden lg:block" style="min-height: 350px;">
+      <h2 class="text-4xl font-medium leading-tight text-white mt-24">Current Projects</h2>
+    </div>
+  </div>
+  <div class="flex flex-row mt-5 sm:justify-center" id="contact">
+    <div class="lg:basis-1/3 hidden lg:block gradient text-center rounded">
+        <h2 class="text-4xl font-medium leading-tight text-white mt-24">Contact Us</h2>
+    </div>
+    <div class="basis-2/3 mt-5">
+      <div class="mx-auto pl-7 pr-7">
+        <h2 class="text-center mb-3 mt-7 text-4xl font-medium leading-tight text-primary text-gray-500 dark:text-gray-400 lg:hidden">
+          Contact Us
+        </h2>
+        <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Got a technical issue? Want to send feedback about a project? Need details about the work we do? Let us know.</p>
+        <form action="https://api.staticforms.xyz/submit" method="post" id="staticform">
+          <input type="hidden" name="accessKey" value="b1bb0667-0457-42ac-bf66-236ed6d315e4"> <!-- Required -->
+          <div>
+           <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
+           <input type="email" id="email" name="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@matbyte.com" required>
+          </div>
+          <div>
+            <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>
+            <input type="text" id="subject" name="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Let us know how we can help you" required>
+          </div>
+          <div class="sm:col-span-2">
+            <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
+            <textarea id="message" name="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
+          </div>
+          <input type="hidden" name="replyTo" value="@">
+          <input type="text" name="honeypot" style="display: none;">
+          <button type="submit" style="background: rgb(1,44,96);" class="mt-3 py-3 px-5 text-sm font-medium text-center text-white rounded-lg sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none hover:brightness-150">Send message
+        </button>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div id="footer" class="flex pb-5 pt-5 mt-5 text-white font-semibold" style="background: rgb(1,44,96);">
+    <a class="ml-3" href="/legal">Imprint and Privacy Policy</a>
+    <div class="grow"></div>
+    <span class="mr-3">info (at) matbyte.com</span>
+  </div>
+</div>
+
+<script>
+    $("#staticform").submit(function(event) {
+  event.preventDefault();
+  $.ajax({
+    url: 'https://api.staticforms.xyz/submit', // url where to submit the request
+    type: "POST", // type of action POST || GET
+    dataType: 'json', // data type
+    data: $("#staticform").serialize(), // post data || get data
+    success: function(result) {
+      // you can see the result from the console
+      // tab of the developer tools
+      $(':input','#staticform').not(':button, :submit, :reset, :hidden').val('');
+      alert('Email Sent');
+    },
+    error: function(xhr, resp, text) {
+      alert(xhr, resp, text);
+    }
+  })
+});
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+jQuery(document).ready(function( $ ) {
+    jQuery(window).scroll(function() {
+            const header = document.querySelector("#hidden_header");
+      if ( $ (window).width() > 200) {
+
+        if ( $ (window).scrollTop() >= 10) {
+            header.classList.add("shownh");
+            header.classList.remove("hiddenh");
+            header.classList.remove("hidden");
+          } else {
+            header.classList.add("hiddenh");
+            header.classList.remove("shownh");
+             }
+      }
+    });
+});
+</script>
+
+<style>
+.gradient {
+  background: rgb(1,44,96);
+  background: linear-gradient(180deg, rgba(1,44,96,1) 7%, rgba(255,255,255,1) 100%);
+}
+
+.gradient-reverse {
+  background: linear-gradient(0deg, rgba(1,44,96,1) 7%, rgba(255,255,255,1) 100%);
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
+
+@keyframes slideOutUp {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(0, -100%, 0);
+    visibility: hidden;
+  }
+}
+
+@keyframes slideInDown {
+  from {
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    visibility: visible;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.hiddenh {
+animation-name: slideOutUp;
+animation-duration: 0.5s;
+animation-fill-mode: forwards;
+}
+
+.shownh {
+animation-name: slideInDown;
+animation-duration: 0.5s;
+}
+</style>
+</body>
+</html>
