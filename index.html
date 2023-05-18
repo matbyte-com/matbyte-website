@@ -68,12 +68,12 @@
       </p>
     </div>
   </div>
-  <div class="flex flex-row mt-5 mb-5" id="currentProjects">
-    <div class="basis-2/3 text-center grow">
-    <h2 class="mb-2 mt-7 text-4xl font-medium leading-tight text-primary text-gray-500 dark:text-gray-400 lg:hidden">
-      Current Projects
-    </h2>
-      <div class="rounded border ml-auto mr-auto mt-5 mb-5" style="width: 50%; border-color: #5e0000">
+  <div class="flex flex-row mt-5 mb-5 justify-center" id="currentProjects">
+    <div class="text-center basis2/3">
+      <h2 class="mb-2 mt-7 text-4xl font-medium leading-tight text-primary text-gray-500 dark:text-gray-400">
+        Current Projects
+      </h2>
+      <div class="rounded border ml-auto mr-auto mt-5 mb-5" style="max-width: 350px; border-color: #5e0000">
         <a href="https://vyhub.net">
           <img src="https://matbyte.com/wp-content/uploads/2023/04/vyhub_logo_v2_icon_red.png"  class="ml-auto mr-auto" style="height: 200px">
         </a>
@@ -85,32 +85,26 @@
         </p>
       </div>
     </div>
-    <div class="lg:basis-1/3 gradient text-center rounded hidden lg:block" style="min-height: 350px;">
-      <h2 class="text-4xl font-medium leading-tight text-white mt-24">Current Projects</h2>
-    </div>
   </div>
   <div class="flex flex-row mt-5 sm:justify-center" id="contact">
-    <div class="lg:basis-1/3 hidden lg:block gradient text-center rounded">
-        <h2 class="text-4xl font-medium leading-tight text-white mt-24">Contact Us</h2>
-    </div>
-    <div class="basis-2/3 mt-5">
+    <div class="mt-5 basis2/3">
       <div class="mx-auto pl-7 pr-7">
-        <h2 class="text-center mb-3 mt-7 text-4xl font-medium leading-tight text-primary text-gray-500 dark:text-gray-400 lg:hidden">
+        <h2 class="text-center mb-3 mt-7 text-4xl font-medium leading-tight text-primary text-gray-500 dark:text-gray-400">
           Contact Us
         </h2>
         <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Got a technical issue? Want to send feedback about a project? Need details about the work we do? Let us know.</p>
         <form action="https://api.staticforms.xyz/submit" method="post" id="staticform">
           <input type="hidden" name="accessKey" value="b1bb0667-0457-42ac-bf66-236ed6d315e4"> <!-- Required -->
           <div>
-           <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
+           <label for="email" class="block text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
            <input type="email" id="email" name="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@matbyte.com" required>
           </div>
           <div>
-            <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>
+            <label for="subject" class="block mt-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>
             <input type="text" id="subject" name="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Let us know how we can help you" required>
           </div>
           <div class="sm:col-span-2">
-            <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
+            <label for="message" class="block mt-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
             <textarea id="message" name="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
           </div>
           <input type="hidden" name="replyTo" value="@">
