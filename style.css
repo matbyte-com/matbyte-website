@@ -1,4 +1,4 @@
-input[name="username"] {
+input[name="honeypot"] {
     position: absolute;
     left: -999999999px;
 }
